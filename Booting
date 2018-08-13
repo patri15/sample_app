@@ -1,0 +1,10 @@
+*** SIGUSR2 not implemented, signal based restart unavailable!
+*** SIGUSR1 not implemented, signal based restart unavailable!
+*** SIGHUP not implemented, signal based logs reopening unavailable!
+Puma starting in single mode...
+* Version 3.12.0 (ruby 2.3.3-p222), codename: Llamas in Pajamas
+* Min threads: 5, max threads: 5
+* Environment: development
+* Listening on tcp://0.0.0.0:3000
+Use Ctrl-C to stop
+Terminate batch job (Y/N)? 
