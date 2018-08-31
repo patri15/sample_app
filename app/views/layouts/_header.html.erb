@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-dark justify-content-between">
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
   <div class="container justify-content-between">
     <%= link_to "sample app", root_path, id: "logo" %>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -6,7 +6,7 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-sm-2">
+      <ul class="navbar-nav">
         <li><%= link_to "Home", root_path %></li>
         <li><%= link_to "Help", help_path %></li>
         <% if logged_in? %>
